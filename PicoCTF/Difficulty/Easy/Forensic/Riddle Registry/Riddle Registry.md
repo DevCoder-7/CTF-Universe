@@ -5,6 +5,5 @@ Hi, intrepid investigator! 📄🔍 You've stumbled upon a peculiar PDF filled w
 Find the PDF file here [Hidden Confidential Document](https://challenge-files.picoctf.net/c_saffron_estate/ccc0d441aa5e523d76f4cddf3e8ef48763cb19abcc171a69ec743a958db3ee33/confidential.pdf) and uncover the flag within the metadata.
 
 # Solve
-```bash
-picoCTF{puzzl3d_m3tadata_f0und!_87be60c0}
-```
+
+flag: 'picoCTF{puzzl3d_m3tadata_f0und!_87be60c0}'
