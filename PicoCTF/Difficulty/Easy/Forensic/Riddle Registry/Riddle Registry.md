@@ -6,4 +6,4 @@ Find the PDF file here [Hidden Confidential Document](https://challenge-files.pi
 
 # Solve
 
-flag: 'picoCTF{puzzl3d_m3tadata_f0und!_87be60c0}'
+flag: `picoCTF{puzzl3d_m3tadata_f0und!_87be60c0}`
