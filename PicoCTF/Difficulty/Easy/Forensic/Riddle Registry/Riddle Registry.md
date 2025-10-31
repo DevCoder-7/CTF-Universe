@@ -1,3 +1,5 @@
+# Riddle Registry
+
 Author: Prince Niyonshuti N.
 
 Description
