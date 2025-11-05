@@ -7,4 +7,4 @@ Description:
 The numbers... what do they mean?
 
 # Solve
-flag: 
+flag: `picoCTF{thenumbersmason}`
