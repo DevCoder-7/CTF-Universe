@@ -8,4 +8,4 @@ A company stored a secret message on a server which got breached due to the admi
 Access the server using _nc verbal-sleep.picoctf.net 62788_
 
 # Solve
-flag: 
+flag: `picoCTF{UseStr0nG_h@shEs_&PaSswDs!_eb2f8459}`
