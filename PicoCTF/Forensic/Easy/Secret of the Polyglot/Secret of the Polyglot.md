@@ -9,4 +9,4 @@ Can you extract all the information from this strange file? Download the suspici
 [here](https://artifacts.picoctf.net/c_titan/99/flag2of2-final.pdf).
 
 # Solve
-flag: ``
+flag: `picoCTF{f1u3n7_1n_pn9_&_pdf_2a6a1ea8}`
