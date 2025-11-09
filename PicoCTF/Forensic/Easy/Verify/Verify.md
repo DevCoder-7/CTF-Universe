@@ -9,5 +9,5 @@ Using the password **83dcefb7**. Accept the fingerprint with yes, and ls once co
 - Checksum: **467a10447deb3d4e17634cacc2a68ba6c2bb62a6637dad9145ea673bf0be5e02**
 - To decrypt the file once you've verified the hash, run **./decrypt.sh files/<file>**
 
-
+# Solve
 flag: `picoCTF{trust_but_verify_c6c8b911}`
