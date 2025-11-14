@@ -1,4 +1,4 @@
-# FindAndOpen
+# Find And Open
 
 Author: Mubarak Mikail
 
