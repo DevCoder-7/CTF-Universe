@@ -1,0 +1,3 @@
+# hideme
+
+flag: `picoCTF{Hiddinng_An_imag3_within_@n_ima9e_96539bea}`
