@@ -3,7 +3,7 @@
 **Event:** ARA7 Qualification  
 **Category:** Digital Forensics / Memory Forensics  
 **Difficulty:** Medium  
-**Solved by:** PolarBear7 (Glenn Josia Devano)
+**Solved by:** PolarBear7 (Glenn Josia Devano)   
 **Flag:** `ARA7{f4b2619c33cea30e3159e7397fb1d6a7}`
 
 ---
