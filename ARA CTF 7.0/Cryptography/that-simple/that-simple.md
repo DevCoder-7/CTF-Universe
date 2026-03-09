@@ -2,6 +2,7 @@
 
 **Event:** ARA7 Qualification  
 **Category:** Cryptography  
+**Solved by:** farelboston (Farel Boston Corinthians)  
 **Tags:** DSA, Nonce Reuse, Hash Collision  
 **Flag:** (diperoleh dari private key yang di-recover)
 
