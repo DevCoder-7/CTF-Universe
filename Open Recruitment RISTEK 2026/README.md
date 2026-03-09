@@ -19,7 +19,7 @@ A collection of write-ups and solutions for CTF challenges in the context of the
 
 ---
 
-## 📂 Struktur Repositori
+## 📂 Repository Structure
 
 ```text
 .
