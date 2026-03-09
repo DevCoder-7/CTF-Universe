@@ -24,14 +24,14 @@ A collection of write-ups and solutions for CTF challenges in the context of the
 ```text
 .
 ├── Web Exploitation/
-│   └── ledger_of_lies/       # Write-up untuk Web Exploitation
+│   └── ledger_of_lies/       # Write-up for Web Exploitation
 ├── Binary Exploitation/
-│   └── cepe/                 # Write-up untuk Binary Exploitation
+│   └── cepe/                 # Write-up for Binary Exploitation
 ├── Reverse Engineering/
-│   └── microvm/              # Write-up untuk Reverse Engineering
+│   └── microvm/              # Write-up for Reverse Engineering
 ├── Forensic/
-│   └── nyawit/               # Write-up untuk Forensics
+│   └── nyawit/               # Write-up for Forensics
 ├── Cryptography/
-│   ├── tangled_roots/        # Write-up untuk Cryptography
-│   └── harmony/              # Write-up untuk Cryptography
+│   ├── tangled_roots/        # Write-up for Cryptography
+│   └── harmony/              # Write-up for Cryptography
 └── README.md
