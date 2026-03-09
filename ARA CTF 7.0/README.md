@@ -31,7 +31,6 @@
 
 ### 📊 Statistik Ringkasan
 * **Total Solved:** 9 Challenges
-* **Top Performer:** demtcsre (4 Solves)
 * **Distribusi Kategori:**
     * Binary Exploitation: 3
     * Cryptography: 3
