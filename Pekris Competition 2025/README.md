@@ -1,7 +1,11 @@
-# Solved
-1. Forensic
-   - Dumb Oracle
-2. Web Exploitation
-   - rizztek
+# 🏆 CTF Solved Challenges Recap
 
-# Unsolved
+---
+
+### Glenn Josia Devano
+| Challenge | Category | Status |
+| :--- | :--- | :---: |
+| **Dumb Oracle** | Forensic | ✅ Solved |
+| **rizztek** | Web Exploitation | ✅ Solved |
+
+---
