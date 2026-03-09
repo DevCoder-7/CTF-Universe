@@ -1,11 +1,39 @@
-## Solved
+# 🏆 CTF Solved Challenges Recap
 
-1. Dumpling -Category: Forensic - Solved by PolarBear7 (Glenn Josia Devano)
-2. Arknights - Category: Web Exploitation - Solved by PolarBear7 (Glenn Josia Devano)
-3. Hachuuu - Category: Web Exploitation - Solved by PolarBear7 (Glenn Josia Devano)
-4. that-simple - Category: Cryptography - Solved by farelboston (Farel Boston Corinthians)
-5. AES Stream Oracle Attack - Category: Cryptography - Solved by farelboston (Farel Boston Corinthians)
-6. know the trick - Category: Cryptography - Solved by demtcsre (Ahmad Rizki Daffaa)
-7. Meow mi-miauuwwww - Category: Binary Exploitation - Solved by demtcsre (Ahmad Rizki Daffaa)
-8. 19jt lapangan padel - Category: Binary Exploitation - Solved by demtcsre (Ahmad Rizki Daffaa)
-9. my diary gweh - Category: Binary Exploitation - Solved by demtcsre (Ahmad Rizki Daffaa)
+---
+
+### 🐻 PolarBear7 (Glenn Josia Devano)
+| Challenge | Category | Status |
+| :--- | :--- | :---: |
+| **Dumpling** | Forensic | ✅ Solved |
+| **Arknights** | Web Exploitation | ✅ Solved |
+| **Hachuuu** | Web Exploitation | ✅ Solved |
+
+---
+
+### 🛡️ farelboston (Farel Boston Corinthians)
+| Challenge | Category | Status |
+| :--- | :--- | :---: |
+| **that-simple** | Cryptography | ✅ Solved |
+| **AES Stream Oracle Attack** | Cryptography | ✅ Solved |
+
+---
+
+### 💻 demtcsre (Ahmad Rizki Daffaa)
+| Challenge | Category | Status |
+| :--- | :--- | :---: |
+| **know the trick** | Cryptography | ✅ Solved |
+| **Meow mi-miauuwwww** | Binary Exploitation | ✅ Solved |
+| **19jt lapangan padel** | Binary Exploitation | ✅ Solved |
+| **my diary gweh** | Binary Exploitation | ✅ Solved |
+
+---
+
+### 📊 Statistik Ringkasan
+* **Total Solved:** 9 Challenges
+* **Top Performer:** demtcsre (4 Solves)
+* **Distribusi Kategori:**
+    * Binary Exploitation: 3
+    * Cryptography: 3
+    * Web Exploitation: 2
+    * Forensic: 1
