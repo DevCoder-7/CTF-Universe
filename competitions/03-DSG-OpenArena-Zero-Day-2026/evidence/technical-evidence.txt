@@ -1,0 +1,19 @@
+OpenArena Zero Day CTF 2026 — selected technical evidence (sanitized)
+
+STAGED WEB / CONFIRMED LOCAL ARTIFACTS
+- W1-C3 and W2-C1 retained .htaccess handler overrides, alternate PHP extensions, and PHP-in-image/polyglot test payloads.
+- W3-C1 recorded as authenticated SSRF in the local recap.
+- W3-C3 recorded as XXE -> disclosure/secret leakage -> admin pivot -> SSTI in the local recap.
+
+STAGED FORENSICS
+- W1-E1 analyst note: suspicious employee photo likely contained hidden data.
+- W2-E1 incident note: acquired memory fragment with noise plus a marked suspicious block.
+- later workspace includes disk, intercepted-traffic, digital-shadow, and keyboard-session challenge artifacts; exact historical paths are not overclaimed where local evidence is incomplete.
+
+FINAL / WEB
+- Gerbang Berlapis: GraphQL enumeration -> deprecated adminAudit -> weak token sealing -> admin pivot -> ZIP import overwrite -> application RCE -> credential pivot -> SSH -> privileged maintenance escalation.
+- ArenaOps: Laravel debug/Ignition exposure -> CVE-2021-3129 RCE -> .env credential disclosure/reuse -> local account -> sudoedit/CVE-2023-22809 privilege escalation.
+
+FINAL / FORENSICS
+- Insiden Lampiran: OOXML relationship analysis + PCAP correlation + encoded PowerShell/key derivation + exfiltration reconstruction.
+- screenshot crop recovery: valid PNG contained recoverable stale bytes after logical image end, demonstrating display-state vs file-state differences.

@@ -1,0 +1,29 @@
+HTB GCSB 2026 — retained local forensic evidence (summary)
+
+EASY — Trust and Betrayal
+- Windows forensic export under Cases/Output/C
+- NTFS metadata: $Boot, $LogFile, $MFT, $Extend/$J, $Secure_$SDS
+- User Registry artifacts: NTUSER.DAT, UsrClass.dat
+- Recent/Jump List artifacts
+- Windows Event Logs / Prefetch / system artifacts
+- Developer project: Users/developer/Documents/VeldoriaPanel
+- Project dependencies include Axios
+
+HARD — Open Wound
+- disk.ad1
+- AD1 scan/extraction helpers and output
+- IIS logs and config history
+- traffic.pcap / HTTP extraction & reconstruction
+- Ghidra project/decompile material
+- investigate_open_wound.py
+- decrypted HTTP output
+- Registry extraction, carved/deleted/slack-space work directories
+
+INSANE — Stay Hydrated
+- C.vhdx
+- D.E01
+- ctf_guess_passwords.py
+- candidate phrase lists
+- multiple recovery/password logs and .rec files for developer, HR, PM, marketing, tester, and release material
+
+Raw disk images were too large for this portfolio package and are intentionally not redistributed.

@@ -1,0 +1,47 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python / JS build noise
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+venv/
+
+# CTF secrets / local environment
+.env
+.env.*
+flags.txt
+flag.txt
+secrets.txt
+credentials.txt
+cookies.txt
+*.key
+*.pem
+
+# Large evidence / challenge bundles (store outside Git; document hashes instead)
+*.7z
+*.zip
+*.rar
+*.ova
+*.ovf
+*.vmdk
+*.vhd
+*.vhdx
+*.E01
+*.e01
+*.ad1
+*.raw
+*.img
+*.mem
+*.dmp
+*.pcap
+*.pcapng
+
+# Temporary output
+output/
+tmp/
+temp/

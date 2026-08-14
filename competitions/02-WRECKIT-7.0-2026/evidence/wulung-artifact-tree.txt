@@ -1,0 +1,21 @@
+Wulung evidence retained locally (large raw VM omitted)
+
+wulung/
+├── Wulung-2604.7z
+└── analysis/
+    ├── SHA256SUMS.txt
+    ├── Wulung-2604.ova
+    ├── Wulung-2604.ovf
+    ├── Wulung-2604-disk001.vmdk
+    └── extracted/
+        ├── etc/
+        │   ├── ld.so.preload
+        │   └── systemd/system/systemd-netcache.service
+        ├── home/forensic/projects/telemetry-agent/package-registry.log
+        ├── usr/local/sbin/netcache-syncd
+        └── var/spool/
+
+Additional high-value paths identified during VMDK enumeration in the retained qualifier writeup:
+- /etc/.cache/netcache.conf
+- /var/spool/.cache/final_flag.README
+- /var/spool/.cache/final_flag.enc.b64

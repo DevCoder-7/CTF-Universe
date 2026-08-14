@@ -1,0 +1,14 @@
+HTB GCSB Business CTF 2026 — selected technical evidence (sanitized)
+
+WEB / LOCAL SOLVE MATERIAL
+- trust-fall: X-Forwarded-User trust misconfiguration -> install-admin impersonation -> unsandboxed Grist Python formula execution.
+- sarym_control: admin middleware/route mismatch -> registration/default admin role -> query-string parameter injection into internal utility runner -> shell execution path.
+- gridwatch: SAML authentication bypass -> authenticated SSRF -> internal Node-RED deployment.
+- portalistic: admin review/browser chain -> CSRF assumption bypass -> XS-Leak audit oracle -> verified supplier -> upload traversal/arbitrary write -> middleware bypass -> Next.js restart/RCE.
+
+FORENSICS / RETAINED WORKSPACE
+- Trust and Betrayal: Windows host export, NTFS metadata, Registry/user artifacts, Event Logs, Recent/Jump Lists, developer project with Axios dependency.
+- Open Wound: AD1 image, IIS logs/config history, PCAP/HTTP reconstruction, Ghidra analysis, decrypted output, Registry and carved/deleted/slack-space work.
+- Stay Hydrated: VHDX + E01, candidate/password scripts, multiple recovery logs and .rec files.
+
+No HTB placement is claimed in this repository because the supplied current CV did not provide one.

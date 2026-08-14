@@ -1,0 +1,9 @@
+Local Web solve/source artifacts used as evidence:
+
+- portalistic/web_portalistic/challenge/htb_portalistic_context.md
+- portalistic/web_portalistic/challenge/exploit_portalistic.js
+- grid/web_gridwatch/challenge/solve.py
+- sarym/web_sarymcontroll/challenge/exploit.py
+- trust/web_trustfall/WRITEUP.md
+
+Challenge `flag.txt` files and dependency trees are deliberately omitted from this portfolio copy.
