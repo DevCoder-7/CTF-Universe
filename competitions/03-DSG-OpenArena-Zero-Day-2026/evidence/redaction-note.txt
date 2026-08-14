@@ -1,1 +1,0 @@
-Final-round source writeups contained temporary hosts, SSH ports, recovered credentials, and flags. They were used as source evidence but are not reproduced verbatim in this public-ready repository.

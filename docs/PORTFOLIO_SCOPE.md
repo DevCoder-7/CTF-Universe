@@ -1,29 +1,28 @@
 # Portfolio Scope & Attribution
 
-This repository is deliberately scoped to **Web Exploitation** and **Digital Forensics**.
+## Personal focus
 
-CTFs are team competitions, and the original working folders also contain cryptography, reverse engineering, binary exploitation, miscellaneous, and other material produced or solved collaboratively. Those areas are not presented here as my personal portfolio evidence.
+This public-ready CTF Universe intentionally centers on:
 
-## Evidence standard
+- Web Exploitation / Application Security
+- Digital Forensics
 
-A claim is included when it is supported by at least one of the following retained sources:
+Other categories may have been solved by teammates during team competitions, but they are not carried forward as personal technical claims unless the retained material clearly supports my contribution.
 
-1. a competition writeup produced during/after the event;
-2. a local solve script, analysis script, terminal record, or artifact tree;
-3. a final-round source/patching workspace;
-4. my current CV achievement record.
+## Event structure is preserved
 
-Where the exact historical solve path cannot be reconstructed from retained evidence, I say so rather than inventing missing steps.
+Write-ups are organized as:
 
-The Open Recruitment NetSOS RISTEK 2026 folder is categorized separately from competition placements: it is presented as a **recruitment technical assessment / challenge set**, not as an award. Its source archive contains multiple categories, but only the retained Web and Forensics work is included here.
+```text
+Event → Stage → Category → Challenge
+```
 
-## What is redacted
+This prevents a common portfolio problem where a single long PDF mixes Web, Crypto, Reverse Engineering, Forensics, and team contributions without making ownership or context clear.
 
-- submitted flags;
-- credentials and session material;
-- API keys and tokens;
-- temporary event IP addresses and webhook/callback URLs;
-- personally identifying material unrelated to the technical work;
-- very large forensic images and challenge bundles.
+## Attack/Defense note
 
-This keeps the repository useful as a portfolio without turning it into a dump of ephemeral competition secrets.
+Attack/Defense finals are service-oriented rather than normal Jeopardy category boards. Where an A/D service is placed under `Web-Exploitation` or `Digital-Forensics`, the event README explains whether that label came from the official final write-up or is a portfolio classification based on the service's technical theme.
+
+## Claims
+
+Competition placements are only stated when supported by the supplied CV/context. Technical claims are limited to behavior that can be traced to retained notes, source, artifacts, or write-ups.

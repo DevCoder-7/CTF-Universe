@@ -1,10 +1,13 @@
 # Security & Responsible Use
 
-The material in this repository documents authorized Capture The Flag exercises and competition infrastructure. Examples are presented for learning, portfolio review, and interview discussion.
+This repository documents work performed in authorized CTF and recruitment-challenge environments.
 
-- Do not reuse the techniques against systems you do not own or have explicit permission to test.
-- Event IP addresses, temporary accounts, API keys, cookies, flags, and callback endpoints have been removed or replaced with placeholders.
-- Large evidence files are intentionally not redistributed.
-- Attack/Defense notes emphasize root cause, minimal remediation, checker compatibility, and re-testing—not merely exploitation.
+Public-release rules:
 
-If a historical endpoint shown in an upstream artifact still exists, treat it as out of scope unless you have current authorization.
+- do not publish active event credentials, API keys, session cookies, private keys, or callback tokens;
+- redact flags unless a specific event explicitly requires public flag disclosure;
+- do not redistribute malware, credential material, large forensic images, or proprietary challenge bundles;
+- keep exploit examples tied to their historical CTF context;
+- do not reuse these techniques against systems without explicit authorization.
+
+If a retained source contains sensitive material, this portfolio summarizes the technical reasoning instead of copying the raw artifact.

@@ -1,47 +1,36 @@
-# OS / editor
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Python / JS build noise
-__pycache__/
-*.pyc
-node_modules/
-.venv/
-venv/
-
-# CTF secrets / local environment
-.env
-.env.*
-flags.txt
-flag.txt
-secrets.txt
-credentials.txt
-cookies.txt
-*.key
-*.pem
-
-# Large evidence / challenge bundles (store outside Git; document hashes instead)
-*.7z
-*.zip
-*.rar
-*.ova
-*.ovf
+# Large forensic / VM artifacts
 *.vmdk
 *.vhd
 *.vhdx
-*.E01
+*.ova
 *.e01
+*.E01
 *.ad1
 *.raw
-*.img
+*.lime
 *.mem
 *.dmp
 *.pcap
 *.pcapng
+*.pcap.gz
 
-# Temporary output
-output/
-tmp/
-temp/
+# Archives / binaries / malware
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.exe
+*.dll
+*.bin
+
+# Secrets / local state
+.env
+.env.*
+*.key
+*.pem
+cookies.txt
+*_cookies.txt
+__pycache__/
+node_modules/
+.DS_Store

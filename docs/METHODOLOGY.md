@@ -1,46 +1,18 @@
-# Working Methodology
+# Write-up Methodology
 
-## Web exploitation
+Each challenge write-up is designed to answer the questions I would expect in a technical interview:
 
-My typical workflow is:
+1. **What was the attack surface or evidence set?**
+2. **What hypothesis did I test first, and why?**
+3. **What observation changed the direction of the investigation?**
+4. **What was the root cause or evidentiary link?**
+5. **How did I validate the result?**
+6. **What would I change defensively or operationally?**
 
-```text
-surface mapping
-→ baseline request/response
-→ hypothesis
-→ controlled manual validation
-→ source/config review when available
-→ minimal exploit or proof script
-→ impact confirmation
-→ root-cause explanation
-→ remediation / regression notes (A&D)
-```
+For old challenges, evidence quality is explicitly labeled:
 
-Tools commonly appearing in the retained material include Burp Suite/Repeater, curl, Python, JavaScript, source review, and small purpose-built automation.
+- **Confirmed** — retained source, artifacts, commands, or detailed write-up support the path.
+- **High-confidence reconstruction** — the solve is known, but some exact historical steps are no longer preserved.
+- **Inferred / portfolio reconstruction** — useful technical interpretation from retained context, not presented as an exact historical replay.
 
-## Digital forensics
-
-My forensic workflow is evidence-first:
-
-```text
-preserve / hash
-→ identify container & filesystem
-→ enumerate artifacts
-→ reduce the search space
-→ correlate timeline / network / host evidence
-→ extract or reconstruct payload
-→ validate recovered data
-→ document chain of reasoning
-```
-
-The retained evidence spans PCAP analysis, steganography, spectrogram recovery, VM/disk-image extraction, Windows host artifacts, IIS artifacts, Linux persistence/service artifacts, and data recovery.
-
-## Attack/Defense
-
-For A/D finals I treat availability as part of security. A useful patch must:
-
-1. close the actual root cause;
-2. preserve the service contract/checker behavior;
-3. survive syntax and functional checks;
-4. be small enough to rollback quickly;
-5. be followed by a security regression test.
+Flags and secrets are not the point of this repository. The useful signal is the reasoning from observation to validated conclusion.
